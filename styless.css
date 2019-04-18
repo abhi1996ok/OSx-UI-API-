@@ -1,0 +1,130 @@
+/*ROBOTOSLAB REGULAR*/
+@font-face {
+    font-family: 'robotSlab';
+    src: url('fonts/RobotoSlab-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*ROBOTO REGULAR*/
+@font-face {
+    font-family: 'robotoReg';
+    src: url('fonts/Roboto-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'robotoReg' !important;
+}
+li{
+    list-style: none !important;
+
+}
+ul{
+
+}
+
+body,
+html {
+    box-sizing: border-box;
+
+}
+
+.leftMainDiv {
+    width: 70.1vw;
+    height: 80vh;
+    border: 3px solid #ededed;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#rightMainDiv {
+    width: 30vw;
+    height: 80vh;
+    border-left: 0;
+    border: 3px solid #ededed;
+    border-left: 0;
+
+}
+
+
+.fileIco::before{
+    content: "\f302";
+    font-family: "Font Awesome\ 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    text-decoration: inherit;
+    color: #75CEF8;
+    font-size: 18px;
+    padding-right: 0.2em;    
+}
+
+.fileIco:hover:after{
+    content: "\f0da";
+    font-family: "Font Awesome\ 5 Free";
+    font-style: normal;
+    float: right;
+    font-weight: 900;
+    text-decoration: inherit;
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+}
+
+.folderIco::before{
+    content: "\f07b";
+    font-family: "Font Awesome\ 5 Free";
+    font-style: normal;
+    font-weight: 900;
+    text-decoration: inherit;
+    color: #75CEF8;
+    font-size: 18px;
+    padding-right: 0.2em;
+}
+
+.folderIco:hover:after{
+    content: "\f0da";
+    font-family: "Font Awesome\ 5 Free";
+    font-style: normal;
+    float: right;
+    font-weight: 900;
+    text-decoration: inherit;
+    color: #000;
+    font-size: 18px;
+    padding-right: 0.5em;
+}
+
+
+
+
+
+
+
+
+.custom-sz{
+    border: 1px solid #ededed !important;
+    border-left-width: 0px !important;
+    height: auto !important;
+    width: 23.5vw !important;
+}
+
+@media (max-width:1760px) {
+    .custom-sz{
+        border: 1px solid #ededed !important;
+        border-left-width: 0px !important;
+        height: auto !important;
+        width: 23.3vw !important;
+    }
+}
+
+
+@media (max-width:991px) {
+
+    .custom-sz{
+        border-left-width: 0px !important;
+        height: auto !important;
+        width: 15.3vw !important;
+    }
+}
